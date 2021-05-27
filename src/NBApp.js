@@ -1,9 +1,8 @@
 import React from 'react'
+import { AppRouter } from './routers/AppRouter'
 
 export const NBApp = () => {
     return (
-        <div>
-            <h1>NBApp</h1>
-        </div>
+        <AppRouter/>
     )
 }
