@@ -4,7 +4,7 @@ import { PlayerList } from '../players/PlayerList'
 export const BullsScreen = () => {
     return (
         <div>
-            <h1>Bulls</h1>
+            <h1>Chicago Bulls</h1>
             <hr />
             <PlayerList team="Chicago Bulls"/>
         </div>
