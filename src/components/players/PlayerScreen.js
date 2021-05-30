@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 import { Redirect, useParams } from 'react-router-dom'
 import { getPlayerById } from '../../selectors/getPlayerById';
 
 export const PlayerScreen = ({history}) => {
 
     const {playerId} = useParams();
-    const player = getPlayerById(playerId);
+    const player = useMemo(() => getPlayerById(playerId), [playerId]);
 
     if(!player){
         return <Redirect to="/"/>
@@ -23,7 +23,7 @@ export const PlayerScreen = ({history}) => {
                 <img 
                     src={`../assets/${playerId}.${team === 'Chicago Bulls' ? 'png':'jpg'}`} 
                     alt={name}
-                    className="img-thumbnail" 
+                    className="img-thumbnail animate__animated animate__fadeInLeft" 
                 />
             </div>
             <div className="col-8">
