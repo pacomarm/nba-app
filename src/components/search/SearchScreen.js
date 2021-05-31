@@ -1,18 +1,25 @@
-import React from 'react'
-import { players } from '../../data/players'
+import React, { useMemo } from 'react'
+import queryString from 'query-string';
+
+import { useLocation } from 'react-router';
 import { useForm } from '../../hooks/useForm';
 import { PlayerCard } from '../players/PlayerCard';
+import { getPlayersByName } from '../../selectors/getPlayersByName';
 
-export const SearchScreen = () => {
-    const playersFiltered = players;
+
+export const SearchScreen = ({history}) => {
+
+    const location = useLocation();
+    const {q = ''} = queryString.parse(location.search);
     
-    const [values, handleInputChange, reset] = useForm({text: ''});
-
+    const [values, handleInputChange] = useForm({text: q});
     const {text} = values;
 
+    const playersFiltered = useMemo(() => getPlayersByName(q), [q])
+    
     const handleSearch = (e) => {
         e.preventDefault();
-        console.log(text);
+        history.push(`?q=${text}`);
     }
 
     return (
@@ -46,6 +53,20 @@ export const SearchScreen = () => {
                <div className="col-7">
                     <h4>Results</h4>
                     <hr />
+                    {
+                        !q && 
+                        
+                        <div className="alert alert-info">
+                            Look for a player
+                        </div>
+                    }
+                    {
+                        (q && !playersFiltered.length) && 
+                        
+                        <div className="alert alert-warning">
+                            No player was found
+                        </div>
+                    }
                     {
                         playersFiltered.map((player) => (
                             <PlayerCard
