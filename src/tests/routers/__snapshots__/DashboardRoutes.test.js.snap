@@ -1,0 +1,683 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests DashboardRoutes should show correctly 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+      onClick={[Function]}
+    >
+      NBA App
+    </a>
+    <div
+      className="navbar-collapse"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          aria-current="page"
+          className="nav-item nav-link active"
+          href="/lakers"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Lakers
+        </a>
+        <a
+          aria-current={null}
+          className="nav-item nav-link"
+          href="/bulls"
+          onClick={[Function]}
+        >
+          Bulls
+        </a>
+        <a
+          aria-current={null}
+          className="nav-item nav-link"
+          href="/search"
+          onClick={[Function]}
+        >
+          Search
+        </a>
+      </div>
+    </div>
+    <div
+      className="navbar-collapse collapse w-100 order-3 dual-collapse2"
+    >
+      <ul
+        className="navbar-nav ml-auto"
+      >
+        <span
+          className="nav-item nav-link text-info"
+        >
+          Paco
+        </span>
+        <button
+          className="btn nav-item nav-link"
+          onClick={[Function]}
+        >
+          Logout
+        </button>
+      </ul>
+    </div>
+  </nav>,
+  <div
+    className="ml-5 mt-5"
+  >
+    <div>
+      <h1>
+        Los Angeles Lakers
+      </h1>
+      <hr />
+      <div
+        className="card-columns animate__animated animate__fadeIn"
+      >
+        <div
+          className="card ms-3"
+          style={
+            Object {
+              "maxWidth": 540,
+            }
+          }
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="col-md-6"
+            >
+              <img
+                alt="Anthony Davis"
+                className="card-img p-1"
+                src="./assets/lakers-ad.jpg"
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-title"
+                >
+                  Anthony Davis
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  AD
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Davis #3
+                </p>
+                <p
+                  className="card-text"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                    2011 Season
+                  </small>
+                </p>
+                <a
+                  href="/player/lakers-ad"
+                  onClick={[Function]}
+                >
+                   more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card ms-3"
+          style={
+            Object {
+              "maxWidth": 540,
+            }
+          }
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="col-md-6"
+            >
+              <img
+                alt="Alex Caruso"
+                className="card-img p-1"
+                src="./assets/lakers-caruso.jpg"
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-title"
+                >
+                  Alex Caruso
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  Alex Carushow
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Caruso #4
+                </p>
+                <p
+                  className="card-text"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                    2018 Season
+                  </small>
+                </p>
+                <a
+                  href="/player/lakers-caruso"
+                  onClick={[Function]}
+                >
+                   more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card ms-3"
+          style={
+            Object {
+              "maxWidth": 540,
+            }
+          }
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="col-md-6"
+            >
+              <img
+                alt="Andre Drummond"
+                className="card-img p-1"
+                src="./assets/lakers-drum.jpg"
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-title"
+                >
+                  Andre Drummond
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  The Drums
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Drummond #2
+                </p>
+                <p
+                  className="card-text"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                    2013 Season
+                  </small>
+                </p>
+                <a
+                  href="/player/lakers-drum"
+                  onClick={[Function]}
+                >
+                   more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card ms-3"
+          style={
+            Object {
+              "maxWidth": 540,
+            }
+          }
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="col-md-6"
+            >
+              <img
+                alt="Dennis Shroder"
+                className="card-img p-1"
+                src="./assets/lakers-ds.jpg"
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-title"
+                >
+                  Dennis Shroder
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  DS 17
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Dennis #17
+                </p>
+                <p
+                  className="card-text"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                    2014 Season
+                  </small>
+                </p>
+                <a
+                  href="/player/lakers-ds"
+                  onClick={[Function]}
+                >
+                   more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card ms-3"
+          style={
+            Object {
+              "maxWidth": 540,
+            }
+          }
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="col-md-6"
+            >
+              <img
+                alt="Mark Gasol"
+                className="card-img p-1"
+                src="./assets/lakers-gasol.jpg"
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-title"
+                >
+                  Mark Gasol
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  Gasolina
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Gasol #14
+                </p>
+                <p
+                  className="card-text"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                    2011 Season
+                  </small>
+                </p>
+                <a
+                  href="/player/lakers-gasol"
+                  onClick={[Function]}
+                >
+                   more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card ms-3"
+          style={
+            Object {
+              "maxWidth": 540,
+            }
+          }
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="col-md-6"
+            >
+              <img
+                alt="Montrezl Harrell"
+                className="card-img p-1"
+                src="./assets/lakers-harrell.jpg"
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-title"
+                >
+                  Montrezl Harrell
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  Big Mon
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Montrezl #15
+                </p>
+                <p
+                  className="card-text"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                    2014 Season
+                  </small>
+                </p>
+                <a
+                  href="/player/lakers-harrell"
+                  onClick={[Function]}
+                >
+                   more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card ms-3"
+          style={
+            Object {
+              "maxWidth": 540,
+            }
+          }
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="col-md-6"
+            >
+              <img
+                alt="Kentavious Caldwell-Pope"
+                className="card-img p-1"
+                src="./assets/lakers-kcp.jpg"
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-title"
+                >
+                  Kentavious Caldwell-Pope
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  PCP
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Caldwell-Pope #1
+                </p>
+                <p
+                  className="card-text"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                    2015 Season
+                  </small>
+                </p>
+                <a
+                  href="/player/lakers-kcp"
+                  onClick={[Function]}
+                >
+                   more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card ms-3"
+          style={
+            Object {
+              "maxWidth": 540,
+            }
+          }
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="col-md-6"
+            >
+              <img
+                alt="Kyle Kuzma"
+                className="card-img p-1"
+                src="./assets/lakers-kuzma.jpg"
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-title"
+                >
+                  Kyle Kuzma
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  Kuzzy
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Kuzma #0
+                </p>
+                <p
+                  className="card-text"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                    2017 Season
+                  </small>
+                </p>
+                <a
+                  href="/player/lakers-kuzma"
+                  onClick={[Function]}
+                >
+                   more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card ms-3"
+          style={
+            Object {
+              "maxWidth": 540,
+            }
+          }
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="col-md-6"
+            >
+              <img
+                alt="LeBron James"
+                className="card-img p-1"
+                src="./assets/lakers-lbj.jpg"
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-title"
+                >
+                  LeBron James
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  LeGoat
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Lebron #23
+                </p>
+                <p
+                  className="card-text"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                    2003 Season
+                  </small>
+                </p>
+                <a
+                  href="/player/lakers-lbj"
+                  onClick={[Function]}
+                >
+                   more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card ms-3"
+          style={
+            Object {
+              "maxWidth": 540,
+            }
+          }
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="col-md-6"
+            >
+              <img
+                alt="Talen Horton-Tucker"
+                className="card-img p-1"
+                src="./assets/lakers-tht.jpg"
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-title"
+                >
+                  Talen Horton-Tucker
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  THT
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Horton-Tucker #9
+                </p>
+                <p
+                  className="card-text"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                    2019 Season #48
+                  </small>
+                </p>
+                <a
+                  href="/player/lakers-tht"
+                  onClick={[Function]}
+                >
+                   more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

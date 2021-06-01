@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests Login should show Lebron given q string 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="text"
+          onChange={[Function]}
+          placeholder="Find a player"
+          type="text"
+          value="Lebron"
+        />
+        <button
+          className="mt-3 btn btn-block btn-outline-primary"
+          style={
+            Object {
+              "width": "30%",
+            }
+          }
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="card ms-3"
+        style={
+          Object {
+            "maxWidth": 540,
+          }
+        }
+      >
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="col-md-6"
+          >
+            <img
+              alt="LeBron James"
+              className="card-img p-1"
+              src="./assets/lakers-lbj.jpg"
+            />
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <div
+              className="card-body"
+            >
+              <h5
+                className="card-title"
+              >
+                LeBron James
+              </h5>
+              <p
+                className="card-text"
+              >
+                LeGoat
+              </p>
+              <p
+                className="card-text"
+              >
+                Lebron #23
+              </p>
+              <p
+                className="card-text"
+              >
+                <small
+                  className="text-muted"
+                >
+                  2003 Season
+                </small>
+              </p>
+              <a
+                href="/player/lakers-lbj"
+                onClick={[Function]}
+              >
+                 more...
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`tests Login should show correctly with default values 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="text"
+          onChange={[Function]}
+          placeholder="Find a player"
+          type="text"
+          value=""
+        />
+        <button
+          className="mt-3 btn btn-block btn-outline-primary"
+          style={
+            Object {
+              "width": "30%",
+            }
+          }
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info"
+      >
+        Look for a player
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`tests Login should show error if player is not found 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="text"
+          onChange={[Function]}
+          placeholder="Find a player"
+          type="text"
+          value="Lebron121"
+        />
+        <button
+          className="mt-3 btn btn-block btn-outline-primary"
+          style={
+            Object {
+              "width": "30%",
+            }
+          }
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-warning"
+      >
+        No player was found
+      </div>
+    </div>
+  </div>
+</div>
+`;
