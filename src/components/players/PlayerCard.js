@@ -1,12 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { playersImgs } from '../../helpers/playersImgs'
 
 export const PlayerCard = ({id, name, team, nickname, debut, character}) => {
     return (
         <div className="card ms-3" style={{maxWidth:540}}>
             <div className="row no-gutters">
                 <div className="col-md-6">
-                    <img src={`./assets/${id}.${team === 'Chicago Bulls' ? 'png':'jpg'}`} className="card-img p-1" alt={name} />
+                    <img 
+                        src={ playersImgs(`./${id}.${team === 'Chicago Bulls' ? 'png':'jpg'}`).default } 
+                        className="card-img p-1" 
+                        alt={name} 
+                    />
                 </div>
                 <div className="col-md-6">
                     <div className="card-body">

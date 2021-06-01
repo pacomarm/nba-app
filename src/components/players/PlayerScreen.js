@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react'
 import { Redirect, useParams } from 'react-router-dom'
+import { playersImgs } from '../../helpers/playersImgs';
 import { getPlayerById } from '../../selectors/getPlayerById';
 
 export const PlayerScreen = ({history}) => {
@@ -21,7 +22,7 @@ export const PlayerScreen = ({history}) => {
         <div className="row mt-5">
             <div className="col-4">
                 <img 
-                    src={`../assets/${playerId}.${team === 'Chicago Bulls' ? 'png':'jpg'}`} 
+                    src={ playersImgs(`./${ playerId }.${team === 'Chicago Bulls' ? 'png':'jpg'}`).default } 
                     alt={name}
                     className="img-thumbnail animate__animated animate__fadeInLeft" 
                 />
